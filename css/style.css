@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Nanum+Pen+Script&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Gamja Flower', cursive;
+  background-color: rgba(247, 239, 166, 0.624);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+i {
+  color: rgb(255, 255, 255);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+header .birthday-intro {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12rem;
+  position: relative;
+}
+
+header .birthday-intro::before{
+  content: "";
+  background: url('../img/birthday-party-background4.jpg') no-repeat center/100%;
+  opacity: 0.7;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;  
+}
+
+header .birthday-intro h1 {
+  font-size: 80px;
+  font-weight: 900;
+  color: #fff;
+  position: relative;
+  padding-top: 18rem;
+}
+
+.welcome-text{
+  margin-bottom: 5rem;
+  font-size: 50px;
+  font-weight: 900;
+}
+
+
+.screen {
+  cursor: pointer;
+  width: 60%;
+  background-color: #000 !important;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.controls {
+  background: #333;
+  color: #fff;
+  width: 60%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.controls .btn {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.controls .fa-play {
+  color: #8deea4;
+}
+
+.controls .fa-stop {
+  color: #f56775;
+}
+
+.controls .fa-pause {
+  color: #fff;
+}
+
+.controls .timestamp {
+  color: #fff;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+/* -----------slide part ---------- */
+
+#main .apply-page {
+  margin: 8rem 0;
+}
+
+#main .apply-page .apply-text{
+  text-align: center;
+  margin-bottom: 7rem;
+}
+
+#main .apply-page .apply-text h1 {
+  font-size: 2.6rem;
+  margin-bottom: 5rem;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+#main .apply-page .slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+#main .apply-page .mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+#main .apply-page .prev, 
+#main .apply-page .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+#main .apply-page .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+#main .apply-page .prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+#main .apply-page img {
+  width: 600px;
+  height: 800px;
+  object-fit: cover;
+}
+
+/* Caption text */
+#main .apply-page .text {
+  color: #f2f2f2;
+  font-size: 45px;
+  font-weight: 800;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+#main .apply-page .numbertext {
+  color: #f2f2f2;
+  font-size: 32px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+#main .apply-page .dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+#main .apply-page .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* ------links parts----- */
+
+.links {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.links h1 {
+  font-size: 2.6rem;
+  margin-bottom: 5rem;
+  display: block;
+}
+
+.links ul {
+  width: 100%;
+  margin: 0;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 5rem;
+  font-size: 30px;
+}
+
+.links ul .links-items {
+  list-style: none;
+  background-color: #8bc8f7;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 3rem;
+  padding: 4rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.links ul .links-items i {
+  color: rgb(225, 250, 250);
+}
+
+.links ul .links-items:hover {
+  background-color: #39a1f0;
+}
+
+/* ---- responsive design -----  */
+
+
+@media (max-width: 800px) {
+  .screen,
+  .controls {
+    width: 90%;
+  }
+}
+
+/* ------- individual page ----  */
+
+.video-title {
+  font-size: 5rem;
+  font-weight: 900;
+  padding: 3rem 0;
+  margin-bottom: 5rem;
+}
+
+.video-message {
+  width: 90%;
+  padding: 8rem 6rem;
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+
+.go-back {
+  margin-top: 2rem;
+  font-size: 30px;
+}
+
+.go-back a{
+  text-decoration: none;
+  color: #48ac3b;
+}
