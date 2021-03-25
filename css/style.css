@@ -15,7 +15,7 @@ body {
 }
 
 i {
-  color: rgb(255, 255, 255);
+  color: black;
 }
 
 header {
@@ -297,9 +297,17 @@ header .birthday-intro h1 {
 
 .video-message {
   width: 90%;
+  margin-top: 3rem;
   padding: 8rem 6rem;
   font-size: 2.2rem;
   font-weight: 400;
+  background-color: rgb(252, 250, 225);
+  border: 3px solid rgb(255, 185, 185);
+  border-radius: 20px;
+}
+
+.video-message i {
+  color: red;
 }
 
 .go-back {
