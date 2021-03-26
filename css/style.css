@@ -319,4 +319,5 @@ header .birthday-intro h1 {
   padding: 2rem;
   text-decoration: none;
   color: #48ac3b;
+  display: block;
 }
