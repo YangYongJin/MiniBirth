@@ -170,7 +170,7 @@ header .birthday-intro h1 {
 }
 
 #main .apply-page img {
-  width: 600px;
+  width: 100%;
   height: 800px;
   object-fit: cover;
 }
@@ -316,6 +316,7 @@ header .birthday-intro h1 {
 }
 
 .go-back a{
+  padding: 2rem;
   text-decoration: none;
   color: #48ac3b;
 }
